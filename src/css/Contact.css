@@ -67,7 +67,7 @@
     }
 }
 
-@media screen and (min-width:768px) and (max-width:1124px){
+@media screen and (min-width:769px) and (max-width:1124px){
     #contact{
         margin-top: -50px;
     }
@@ -78,21 +78,21 @@
     }
 }
 
-@media screen and (min-width:425px) and (max-width:767px){
+@media screen and (min-width:425px) and (max-width:768px){
     #contact{
-        margin-top: 0px;
+        margin-top: 45px;
         margin-bottom: -30px;
     }
 
     .contact-icon{
         margin-top: 10px;
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
 @media screen and (min-width:375px) and (max-width:424px){
     #contact{
-        margin-top: 20px;
+        margin-top: 50px;
         margin-bottom: -80px;
     }
 
@@ -104,7 +104,7 @@
 
 @media screen and (min-width:321px) and (max-width:374px){
     #contact{
-        margin-top: 0px;
+        margin-top: 15px;
         margin-bottom: -85px;
     }
 
