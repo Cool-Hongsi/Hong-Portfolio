@@ -34,7 +34,7 @@ export default class Skill extends React.Component{
                                     className={classnames({ active: this.state.activeTab === '1' })}
                                     onClick={() => { this.toggle('1'); }}
                                     >
-                                    Frontend
+                                    Front
                                     </NavLink>
                                 </NavItem>
                             </Col>
@@ -44,7 +44,7 @@ export default class Skill extends React.Component{
                                     className={classnames({ active: this.state.activeTab === '2' })}
                                     onClick={() => { this.toggle('2'); }}
                                     >
-                                    Backend & DB
+                                    Back & DB
                                     </NavLink>
                                 </NavItem>
                             </Col>
