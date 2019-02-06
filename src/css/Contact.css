@@ -1,0 +1,127 @@
+#contact{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    height: 15vh;
+    margin: auto;
+}
+
+.contact-icon{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: inline-flex;
+    font-size: 70px;
+}
+
+.contact-icon i{
+    color: rgb(63, 62, 62);
+}
+
+.contact-icon .email{
+    width: 25%;
+}
+
+.contact-icon .linkedin{
+    width: 25%;
+}
+
+.contact-icon .github{
+    width: 25%;
+}
+
+.contact-icon .fcc{
+    width: 25%;
+}
+
+@media screen and (min-width: 2175px){
+    #contact{
+        margin-top: -100px;
+    }
+
+    .contact-icon{
+        margin-top: -100px;
+        font-size: 110px;
+    }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 2175px){
+    #contact{
+        margin-top: -40px;
+    }
+
+    .contact-icon{
+        margin-top: -100px;
+        font-size: 100px;
+    }
+}
+
+@media screen and (min-width:1124px) and (max-width:1600px){
+    #contact{
+        margin-top: 0px;
+    }
+
+    .contact-icon{
+        margin-top: -20px;
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1124px){
+    #contact{
+        margin-top: -50px;
+    }
+
+    .contact-icon{
+        margin-top: 20px;
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px){
+    #contact{
+        margin-top: 0px;
+        margin-bottom: -30px;
+    }
+
+    .contact-icon{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:424px){
+    #contact{
+        margin-top: 20px;
+        margin-bottom: -80px;
+    }
+
+    .contact-icon{
+        margin-top: -10px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:374px){
+    #contact{
+        margin-top: 0px;
+        margin-bottom: -85px;
+    }
+
+    .contact-icon{
+        margin-top: 0px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #contact{
+        margin-top: 0px;
+        margin-bottom: -75px;
+    }
+
+    .contact-icon{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,232 @@
+.videoBG{
+    background-size: 100%;
+}
+
+.screen{
+    position : absolute;
+    width : 100%;
+    height : 100vh;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.screen p{
+    font-size: 250px;
+    font-weight: 800;
+}
+
+.landingBackground{
+    color : #424242;
+    position: absolute;
+    top: 42%;
+    width: 100%;
+    line-height: 100%;
+}
+
+.landingBtn{
+    position: absolute;
+    top : 48%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+}
+
+.screen .landingBtn{
+    display : block;
+    padding : 24px 48px;
+    font-weight: 700;
+    font-size: 12px;
+    color : rgba(255, 255, 255, 0.863);
+    border : 2px solid rgba(255, 255, 255, 0.863);
+    text-transform: uppercase;
+    outline : none;
+    overflow: hidden;
+    background : none;
+    z-index: 0;
+    transition: 0.8s ease-out;
+}
+
+.landingBtn:hover{
+    color : #101010;
+}
+
+.landingBtn:before{
+    content : "";
+    position : absolute;
+    background : rgba(255, 255, 255, 0.863);
+    bottom :0;
+    left: 0;
+    right : 0;
+    top : 100%;
+    z-index: -1;
+    transition : top 0.8s ease-out;
+}
+
+.landingBtn:hover:before{
+    top : 0;
+}
+
+@media screen and (min-width:1724px){
+    .videoBG{
+        width: auto;
+        height: 100%;
+    }
+    
+    .landingBackground{
+        top: 45%;
+        text-align: center;
+    }
+
+    .screen p{
+        font-size: 320px;
+    }
+    
+    .screen .landingBtn{
+        top : 48%;
+        left : 50%;
+        padding : 30px 60px;
+        font-size: 40px;
+        letter-spacing: 6px;
+    }
+
+    .hong{
+        margin-left: 9px;
+    }
+}
+
+@media screen and (min-width:1124px) and (max-width:1723px){
+    .landingBackground{
+        top: 45%;
+        text-align: center;
+    }
+
+    .screen p{
+        font-size: 210px;
+    }
+    
+    .screen .landingBtn{
+        top : 48%;
+        left : 50%;
+        padding : 15px 30px;
+        font-size: 30px;
+        letter-spacing: 6px;
+    }
+
+    .hong{
+        margin-left: 9px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1123px){
+    .landingBackground{
+        top: 45%;
+        text-align: center;
+    }
+
+    .screen p{
+        font-size: 150px;
+    }
+    
+    .screen .landingBtn{
+        top : 48%;
+        left : 50%;
+        padding : 11px 22px;
+        font-size: 24px;
+        letter-spacing: 6px;
+    }
+ 
+    .hong{
+        margin-left: 7px;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px){
+    .landingBackground{
+        top: 45%;
+        text-align: center;
+    }
+
+    .screen p{
+        font-size: 80px;
+    }
+    
+    .screen .landingBtn{
+        top : 48%;
+        left : 50%;
+        padding : 6px 12px;
+        font-size: 17px;
+        letter-spacing: 6px;
+    }
+
+    .hong{
+        margin-left: 9px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:424px){
+    .landingBackground{
+        top: 45%;
+        text-align: center;
+    }
+
+    .screen p{
+        font-size: 70px;
+    }
+    
+    .screen .landingBtn{
+        top : 47%;
+        left : 50%;
+        padding : 4px 8px;
+        font-size: 14px;
+        letter-spacing: 6px;
+    }
+
+    .hong{
+        margin-left: 7px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:374px){
+    .landingBackground{
+        top: 45%;
+        text-align: center;
+    }
+
+    .screen p{
+        font-size: 58px;
+    }
+    
+    .screen .landingBtn{
+        top : 47%;
+        left : 50%;
+        padding : 3px 6px;
+        font-size: 14px;
+        letter-spacing: 6px;
+    }
+
+    .hong{
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .landingBackground{
+        top: 45%;
+        text-align: center;
+    }
+
+    .screen p{
+        font-size: 60px;
+    }
+    
+    .screen .landingBtn{
+        top : 46%;
+        left : 50%;
+        padding : 2px 4px;
+        font-size: 14px;
+        letter-spacing: 6px;
+    }
+
+    .hong{
+        margin-left: 7px;
+    }
+}

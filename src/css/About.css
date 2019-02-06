@@ -1,0 +1,324 @@
+#about{
+    position: relative;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    /* background: url('./image/pexels-photo-355770.jpeg') no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed; */
+    /* transform: skew(0deg, 5deg); */
+    margin-top: 200px;
+}
+
+.first-bar{
+    width: 70%;
+    height: .5%;
+    border-radius: 5px;
+    background-color: #000;
+    box-shadow: 2px 2px 1px grey;
+}
+
+.second-bar{
+    float: right;
+    width: 70%;
+    height: .5%;
+    border-radius: 5px;
+    background-color: #000;
+    box-shadow: 2px 2px 1px grey;
+}
+
+.feature{
+    font-weight: bold;
+}
+
+.content{
+    margin-top: 80px;
+    margin-bottom: 115px;
+}
+
+.content .face{
+    width: 290px;
+    height: 290px;
+    margin-right: 80px;
+    margin-left: 100px;
+    shape-outside: url('../css/image/Face.png');
+    shape-margin: 15px;
+    shape-image-threshold: 0.5;
+}
+
+.content .introduction{
+    font-size: 19px;
+}
+
+@media screen and (min-width: 2175px){
+    #about{
+        margin-top: 200px;
+    }
+
+    .second-bar{
+        float: right;
+        width: 70%;
+        height: .5%;
+        border-radius: 5px;
+        background-color: #000;
+        box-shadow: 2px 2px 1px grey;
+        margin-top: 0px;
+        margin-bottom: 180px;
+    }
+    
+    .content{
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+    
+    .content .face{
+        width: 320px;
+        height: 320px;
+        margin-right: 80px;
+        margin-left: 100px;
+        shape-outside: url('../css/image/Face.png');
+        shape-margin: 70px;
+        shape-image-threshold: 0.5;
+    }
+    
+    .content .introduction{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 2175px){
+    #about{
+        margin-top: 200px;
+    }
+
+    .second-bar{
+        float: right;
+        width: 70%;
+        height: .5%;
+        border-radius: 5px;
+        background-color: #000;
+        box-shadow: 2px 2px 1px grey;
+        margin-top: 0px;
+    }
+    
+    .content{
+        margin-top: 70px;
+        margin-bottom: 95px;
+    }
+    
+    .content .face{
+        width: 320px;
+        height: 320px;
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-bottom: 30px;
+        shape-outside: url('../css/image/Face.png');
+        shape-margin: 60px;
+        shape-image-threshold: 0.5;
+    }
+    
+    .content .introduction{
+        font-size: 27px;
+    }
+}
+
+@media screen and (min-width:1124px) and (max-width:1600px){
+    #about{
+        margin-top: 100px;
+    }
+    
+    .second-bar{
+        float: right;
+        width: 70%;
+        height: .5%;
+        border-radius: 5px;
+        background-color: #000;
+        box-shadow: 2px 2px 1px grey;
+        margin-top: 0px;
+    }
+    
+    .content{
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    
+    .content .face{
+        width: 230px;
+        height: 230px;
+        margin-right: 60px;
+        margin-left: 65px;
+        shape-outside: url('../css/image/Face.png');
+        shape-margin: 60px;
+        shape-image-threshold: 0.5;
+    }
+    
+    .content .introduction{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1124px){
+    #about{
+        margin-top: 50px;
+    }
+    
+    .second-bar{
+        float: right;
+        width: 70%;
+        height: .5%;
+        border-radius: 5px;
+        background-color: #000;
+        box-shadow: 2px 2px 1px grey;
+        margin-top: 0px;
+    }
+    
+    .content{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .content .face{
+        width: 160px;
+        height: 160px;
+        margin-right: 40px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        shape-outside: url('../css/image/Face.png');
+        shape-margin: 30px;
+        shape-image-threshold: 0.5;
+    }
+    
+    .content .introduction{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px){
+    #about{
+        margin-top: 15px;
+    }
+
+    .second-bar{
+        float: right;
+        width: 70%;
+        height: .5%;
+        border-radius: 5px;
+        background-color: #000;
+        box-shadow: 2px 2px 1px grey;
+        margin-top: 0px;
+    }
+    
+    .content{
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    
+    .content .face{
+        width: 150px;
+        height: 150px;
+        margin-right: 25px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .content .introduction{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:424px){
+    #about{
+        margin-top: 50px;
+    }
+
+    .second-bar{
+        float: right;
+        width: 70%;
+        height: .5%;
+        border-radius: 5px;
+        background-color: #000;
+        box-shadow: 2px 2px 1px grey;
+        margin-top: 0px;
+    }
+    
+    .content{
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .content .face{
+        width: 120px;
+        height: 120px;
+        margin-right: 15px;
+        margin-left: 7px;
+        margin-bottom: 1.5px;
+    }
+    
+    .content .introduction{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:374px){
+    #about{
+        margin-top: 70px;
+    }
+
+    .second-bar{
+        float: right;
+        width: 70%;
+        height: .5%;
+        border-radius: 5px;
+        background-color: #000;
+        box-shadow: 2px 2px 1px grey;
+        margin-top: 0px;
+    }
+    
+    .content{
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    
+    .content .face{
+        width: 110px;
+        height: 110px;
+        margin-left: 0px;
+        margin-bottom: 1.5px;
+    }
+    
+    .content .introduction{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #about{
+        margin-top: 65px;
+    }
+
+    .second-bar{
+        float: right;
+        width: 70%;
+        height: .5%;
+        border-radius: 5px;
+        background-color: #000;
+        box-shadow: 2px 2px 1px grey;
+        margin-top: 0px;
+    }
+    
+    .content{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .content .face{
+        width: 110px;
+        height: 110px;
+        margin-left: 0px;
+        margin-bottom: 1.5px;
+    }
+    
+    .content .introduction{
+        font-size: 8px;
+    }
+}
