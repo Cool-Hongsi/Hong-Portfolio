@@ -337,6 +337,8 @@
     }
     
     #project .box{
+        width: 250px;
+        margin: auto;
         margin-bottom: 40px;
         margin-top: 40px;
     }
@@ -349,14 +351,15 @@
     }
     
     #project .box .details{
+        position: absolute;
+        left: 23px;
+        width: 200px;
         top: 0px;
-        left: 80px;
         bottom: 90px;
-        right: 80px;
     }
 
     #project .box .details .content{
-        top: 30%;
+        top: 25%;
     }
     
     #project .box .details .content h2{
@@ -387,6 +390,8 @@
     }
     
     #project .box{
+        width: 200px;
+        margin: auto;
         margin-bottom: 40px;
         margin-top: 40px;
     }
@@ -399,10 +404,11 @@
     }
     
     #project .box .details{
+        position: absolute;
+        left: -2px;
+        width: 200px;
         top: 0px;
-        left: 80px;
         bottom: 90px;
-        right: 80px;
     }
 
     #project .box .details .content{
@@ -437,6 +443,8 @@
     }
     
     #project .box{
+        width: 200px;
+        margin: auto;
         margin-bottom: 40px;
         margin-top: 40px;
     }
@@ -449,10 +457,10 @@
     }
     
     #project .box .details{
+        position: absolute;
+        left: 12px;
         top: 0px;
-        left: 40px;
         bottom: 90px;
-        right: 40px;
     }
 
     #project .box .details .content{
@@ -487,6 +495,8 @@
     }
     
     #project .box{
+        width: 200px;
+        margin: auto;
         margin-bottom: 40px;
         margin-top: 40px;
     }
@@ -499,14 +509,14 @@
     }
     
     #project .box .details{
+        position: absolute;
+        left: 12px;
         top: 0px;
-        left: 40px;
         bottom: 90px;
-        right: 40px;
     }
 
     #project .box .details .content{
-        top: 36%;
+        top: 28%;
     }
     
     #project .box .details .content h2{
