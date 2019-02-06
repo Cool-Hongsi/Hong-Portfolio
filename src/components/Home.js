@@ -13,12 +13,7 @@ export default class Home extends React.Component{
                 <div id="home">
                     <div className="home-data ani">
                         <div className="junior">
-                            Junior
-                        </div>
-                    </div>
-                    <div className="home-data ani">
-                        <div className="developer">
-                            Web Developer
+                            Junior Developer
                         </div>
                     </div>
                 </div>

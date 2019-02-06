@@ -84,7 +84,7 @@
 
 @media screen and (min-width:1601px){
     .insertPic{
-        margin-top: 270px;
+        margin-top: 320px;
         margin-bottom: 100px;
     }
 
@@ -100,12 +100,13 @@
         padding-top: 4rem;
     }
 
-    .junior, .developer{
-        width: 1200px;
+    .junior{
+        width: 1150px;
+        text-align: center;
         position: relative;
         top: 40%;
         left: 0%;
-        font-size: 150px;
+        font-size: 140px;
     }
 
     @keyframes typewriter{
@@ -114,7 +115,7 @@
             margin: auto;
         }
         to{
-            width: 1200px;
+            width: 1150px;
             margin: auto;
         }
     }
@@ -138,12 +139,13 @@
         padding-top: 1.7rem;
     }
 
-    .junior, .developer{
-        width: 580px;
+    .junior{
+        width: 540px;
         position: relative;
+        text-align: center;
         top: 40%;
         left: 0%;
-        font-size: 70px;
+        font-size: 65px;
     }
 
     @keyframes typewriter{
@@ -152,7 +154,7 @@
             margin: auto;
         }
         to{
-            width: 580px;
+            width: 540px;
             margin: auto;
         }
     }
@@ -186,12 +188,13 @@
         padding-top: 1.5rem;
     }
 
-    .junior, .developer{    
-        width: 450px;
+    .junior{
+        width: 430px;
         position: relative;
+        text-align: center;
         top: 40%;
         left: 0%;
-        font-size: 55px;
+        font-size: 50px;
         margin-top: 20px;
     }
 
@@ -201,7 +204,7 @@
             margin: auto;
         }
         to{
-            width: 450px;
+            width: 430px;
             margin: auto;
         }
     }
@@ -240,9 +243,10 @@
         height: 100vh;
     }
 
-    .junior, .developer{
-        width: 370px;
+    .junior{
+        width: 385px;
         position: relative;
+        text-align: center;
         top: 40%;
         left: 0%;
         font-size: 45px;
@@ -255,7 +259,7 @@
             margin: auto;
         }
         to{
-            width: 370px;
+            width: 385px;
             margin: auto;
         }
     }
@@ -294,8 +298,9 @@
         height: 100vh;
     }
 
-    .junior, .developer{
-        width: 320px;
+    .junior{
+        text-align: center;
+        width: 350px;
         position: relative;
         top: 40%;
         left: 0%;
@@ -309,7 +314,7 @@
             margin: auto;
         }
         to{
-            width: 320px;
+            width: 350px;
             margin: auto;
         }
     }
@@ -348,9 +353,10 @@
         height: 100vh;
     }
 
-    .junior, .developer{
-        width: 290px;
+    .junior{
+        width: 300px;
         position: relative;
+        text-align: center;
         top: 40%;
         left: 0%;
         font-size: 35px;
@@ -363,7 +369,7 @@
             margin: auto;
         }
         to{
-            width: 290px;
+            width: 300px;
             margin: auto;
         }
     }
@@ -402,12 +408,13 @@
         height: 100vh;
     }
 
-    .junior, .developer{
+    .junior{
+        text-align: center;
         width: 240px;
         position: relative;
         top: 40%;
         left: 0%;
-        font-size: 30px;
+        font-size: 27px;
         margin-top: 30px;
     }
 
