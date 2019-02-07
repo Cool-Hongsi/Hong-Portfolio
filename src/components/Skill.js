@@ -103,7 +103,7 @@ export default class Skill extends React.Component{
                             <Row>
                                 <Col xs="12" sm="6" md="6" lg="6" xl="6">
                                     <Card body className="card">
-                                    <CardTitle className="cardTitle">NodeJS (1 Year)</CardTitle>
+                                    <CardTitle className="cardTitle">NodeJS (Express) (1 Year)</CardTitle>
                                     <CardText className="cardText">Asynchronous (Promise), Combine DB, MVC Design, REST API, Modules (Socket, HandleBar, etc), Partial Webpack & Babel</CardText>
                                     </Card>
                                 </Col>
