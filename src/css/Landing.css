@@ -200,11 +200,11 @@
 
 @media screen and (min-width:321px) and (max-width:374px){
     .videoBG{
-        display: none;
+        display: none !important;
     }
 
     .screen{
-        background-color: black;
+        background-color: #000;
     }
 
     .landingBackground{
@@ -232,11 +232,11 @@
 
 @media screen and (max-width: 320px){
     .videoBG{
-        display: none;
+        display: none !important;
     }
 
     .screen{
-        background-color: black;
+        background-color: #000;
     }
     
     .landingBackground{
