@@ -78,7 +78,7 @@ const items = [
         description: "Particularly, in order to create responsive application, I set Grid and media as the size of each device. Also, without using template, I considered and created my own design and frame by myself.",
         hardPoint: "Setting up media size was a kind of hard point for me since I need to appoint each style as the size of media respectively. Also, in using Green Sock, I studied TweenMax, Power2 to put unique effect.",
         overcome: "Whenever I got stuck in designing, I looked over some of youtube coding materials and refered to it. I could realize that many things can be much better through even small code.",
-        url : "/"
+        url : "https://github.com/Cool-Hongsi/Hong-Portfolio"
     }
 ];
 

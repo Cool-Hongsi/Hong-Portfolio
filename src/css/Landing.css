@@ -167,6 +167,14 @@
 }
 
 @media screen and (min-width:375px) and (max-width:424px){
+    .videoBG{
+        display: none;
+    }
+
+    .screen{
+        background-color: black;
+    }
+
     .landingBackground{
         top: 45%;
         text-align: center;
@@ -191,6 +199,14 @@
 }
 
 @media screen and (min-width:321px) and (max-width:374px){
+    .videoBG{
+        display: none;
+    }
+
+    .screen{
+        background-color: black;
+    }
+
     .landingBackground{
         top: 45%;
         text-align: center;
@@ -215,6 +231,14 @@
 }
 
 @media screen and (max-width: 320px){
+    .videoBG{
+        display: none;
+    }
+
+    .screen{
+        background-color: black;
+    }
+    
     .landingBackground{
         top: 45%;
         text-align: center;
