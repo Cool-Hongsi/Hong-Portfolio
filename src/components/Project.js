@@ -62,12 +62,12 @@ const items = [
         src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFcRy79_ynO8mvwb5AM7UxcLkjMlEmspMVP74HYk9vBWN3jX-L',
         altText: 'Shopping Cart',
         title: "Shopping Cart",
-        usedLanguage: "MVC (ReactJS, NodeJS, MongoDB), REST API",
-        purpose: "Working on it",
-        description: "",
-        hardPoint: "",
-        overcome: "",
-        url : "/"
+        usedLanguage: "MVC (ReactJS, NodeJS, MongoDB), REST API, session, fetch, ES6",
+        purpose: "I created this project in order to experience MVC design as well as understand server and client.",
+        description: "I used ReactJS as frontend and NodeJS as backend. The reason why I used both of them is because I wanted to practice receiving the data from backend server and representing the data into frontend page. For this reason, as the standard of MVC design, I stored product list information into MongoDB and send the data from one of the routers in NodeJS. After then, I set up the proxy server as the same server of NodeJS, and receive the data by using fetch method in ReactJS. Also, represent data by using map and filter method (search bar as well) as ES6. In addition, I distinguished administrator version and user version in order to manage data and show data respectively with the standard of REST API. Particularly, as long as the user adds items in the shopping cart, the record is kept until program ends by using session.",
+        hardPoint: "Interaction between ReactJS and NodeJS, Using Session",
+        overcome: "It was hard for me to transfer data from backend to frontend, also, from frontend to backend. Once I send the data, even though it was easy to receive the data, the point was utilizing data as the requirement of roles. In order to get through it, I studied some of the sample code related to full-stack application and I could use fetch, map, filter, includes properly to utilize data. In using session, I got confused between cookie and session. Basicially, cookie stores data into file (no affect to memory), session stores data into server memory. For this reason, I decided to use session (much stronger than cookie in aspect of security), as long as the program does not end, made an effort to keep the cart data in server. Once the user click add button, one of property in session will be added about the product and send it to ReactJS and represent it by using fetch and map function",
+        url : "https://github.com/Cool-Hongsi/shoppingcart"
     },
     {
         src: 'https://pbs.twimg.com/profile_images/925333528325296129/Qgw0d8Kv_400x400.jpg',
