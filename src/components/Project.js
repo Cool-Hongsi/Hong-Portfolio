@@ -79,6 +79,17 @@ const items = [
         hardPoint: "Setting up media size was a kind of hard point for me since I need to appoint each style as the size of media respectively. Also, in using Green Sock, I studied TweenMax, Power2 to put unique effect.",
         overcome: "Whenever I got stuck in designing, I looked over some of youtube coding materials and refered to it. I could realize that many things can be much better through even small code.",
         url : "https://github.com/Cool-Hongsi/Hong-Portfolio"
+    },
+    {
+        src: 'https://i.imgur.com/OvMZBs9.jpg',
+        altText: 'ToDo',
+        title: "ToDo",
+        usedLanguage: "MERN (MongoDB, Express, ReactJS, NodeJS), MVC Design, REST API, Bootstrap",
+        purpose: "In order to experience MERN stack development with REST API & Request information to backend by using axios",
+        description: "Regarding languages, as the standard of MVC design, I used MERN stack (Model - MongoDB, View - ReactJS, Controller - NodeJS). Also, I set up routers in order to communicate between server and client effectively with REST API. In terms of contents, the landingpage is consisted of the lists of todo as well as some of button which has the functions to add, show, update and delete lists. By using react-router-dom, the page can add another component without page reloading (this.props.history.push & withRouter). Once the user click or do something for todo list, the data will transfer backend (NodeJS) and it would contact with database (MongoDB) and the reflected data will send to fronend page(ReactJS).",
+        hardPoint: "Real-time reflection & Using axios with REST API & store state by using ES6",
+        overcome: "I could realize that the real-time reflection does not work after the user does something in todo list. In order to solve it, I used componentWillUnmount() and set interval in order to request data from server every certain time. Also, as the standard of REST API, in setting up axios, it does not work properly, particularly, the params value. For this, I was able to figure out when the params are transferred to backend, the req.params value would became string. I immediately used parseInt(req.params.id) and made it up (axios code is axios.put(`/api/updateData/${this.props.id}`, {title : this.state.form.title, description : this.state.form.description}).then((res) => {). Finally, in order to store data into state by using ES6, I looked over official website for ReactJS and used the source code like ( this.setState({ form:{ ...this.state.form, [name]: value }});).",
+        url : "https://github.com/Cool-Hongsi/ToDo"
     }
 ];
 
