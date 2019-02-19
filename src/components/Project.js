@@ -82,8 +82,8 @@ const items = [
     },
     {
         src: 'https://i.imgur.com/OvMZBs9.jpg',
-        altText: 'To Do List',
-        title: "To Do List",
+        altText: '\nTo Do',
+        title: "\nTo Do",
         usedLanguage: "MERN (MongoDB, Express, ReactJS, NodeJS), MVC Design, REST API, Bootstrap",
         purpose: "In order to experience MERN stack development with REST API & Request information to backend by using axios",
         description: "Regarding languages, as the standard of MVC design, I used MERN stack (Model - MongoDB, View - ReactJS, Controller - NodeJS). Also, I set up routers in order to communicate between server and client effectively with REST API. In terms of contents, the landingpage is consisted of the lists of todo as well as some of button which has the functions to add, show, update and delete lists. By using react-router-dom, the page can add another component without page reloading (this.props.history.push & withRouter). Once the user click or do something for todo list, the data will transfer backend (NodeJS) and it would contact with database (MongoDB) and the reflected data will send to fronend page(ReactJS).",
