@@ -16,7 +16,6 @@
     font-weight: lighter;
     font-size: 55px;
     font-weight: 600;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
     overflow: hidden;
     top: 30%;
 }
@@ -283,7 +282,7 @@
 
 @media screen and (min-width:375px) and (max-width:424px){
     .home-data{
-        font-size: 43px;
+        font-size: 37px;
     }
 
     #nav-about{
@@ -342,7 +341,7 @@
 
 @media screen and (min-width:321px) and (max-width:374px){
     .home-data{
-        font-size: 40px;
+        font-size: 34px;
     }
 
     #nav-about{
@@ -401,7 +400,7 @@
 
 @media screen and (max-width: 320px){
     .home-data{
-        font-size: 38px;
+        font-size: 30px;
     }
 
     #nav-about{
