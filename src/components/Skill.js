@@ -74,25 +74,25 @@ export default class Skill extends React.Component{
                         <TabContent activeTab={this.state.activeTab}>
                             <TabPane tabId="1">
                                 <Row>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">HTML (2 Years)</CardTitle>
                                         <CardText className="cardText">Proficient Tag Handling, Jade Template</CardText>
                                         </Card>
                                     </Col>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">CSS (1 Year)</CardTitle>
                                         <CardText className="cardText">Responsive App (Grid & Media), Bootstrap, Basic Design</CardText>
                                         </Card>
                                     </Col>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">Javascript (2 Years)</CardTitle>
                                         <CardText className="cardText">ES6, Apply Libraries, DOM, Fetch, Handling JSON, Partial jQuery & Ajax</CardText>
                                         </Card>
                                     </Col>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">ReactJS (1 Year)</CardTitle>
                                         <CardText className="cardText">Handling Props & State, Lifecycle, Router, Axios, Single-page App, User-interface Component</CardText>
@@ -102,25 +102,25 @@ export default class Skill extends React.Component{
                             </TabPane>
                             <TabPane tabId="2">
                                 <Row>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">NodeJS (Express) (1 Year)</CardTitle>
                                         <CardText className="cardText">Asynchronous (Promise), Combine DB, MVC Design, REST API, Modules (Socket, HandleBar, etc), Partial Webpack & Babel</CardText>
                                         </Card>
                                     </Col>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">Python ( - )</CardTitle>
                                         <CardText className="cardText">is studying</CardText>
                                         </Card>
                                     </Col>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">MySQL & PostgreSQL (1 Year)</CardTitle>
                                         <CardText className="cardText">Handling SQL Command, CRUD, Table & Data Structure</CardText>
                                         </Card>
                                     </Col>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">MongoDB (1 Year)</CardTitle>
                                         <CardText className="cardText">Methods for NoSQL, CRUD, Data Structure</CardText>
@@ -130,13 +130,13 @@ export default class Skill extends React.Component{
                             </TabPane>
                             <TabPane tabId="3">
                                 <Row>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">Java (1 Year)</CardTitle>
                                         <CardText className="cardText">Class Structure, Inheritance, GUI, Lamda</CardText>
                                         </Card>
                                     </Col>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">C++ (1 Year)</CardTitle>
                                         <CardText className="cardText">Class Structure, Inheritance, STL, Operator, Pointer</CardText>
@@ -146,19 +146,19 @@ export default class Skill extends React.Component{
                             </TabPane>
                             <TabPane tabId="4">
                                 <Row>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">AWS (1 Year)</CardTitle>
                                         <CardText className="cardText">EC2, S3, RDS</CardText>
                                         </Card>
                                     </Col>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">GIT (1 Year)</CardTitle>
                                         <CardText className="cardText">Deploy to Heroku, reset, branch, merge, tag</CardText>
                                         </Card>
                                     </Col>
-                                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                         <Card body className="card">
                                         <CardTitle className="cardTitle">Linux (1 Year)</CardTitle>
                                         <CardText className="cardText">Command, Partial Bash Scripting</CardText>
