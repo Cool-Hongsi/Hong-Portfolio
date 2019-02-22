@@ -8,10 +8,6 @@ self.__precacheManifest = [
     "url": "/Hong-Portfolio/static/media/pexels-photo-1038935.de29d2da.jpeg"
   },
   {
-    "revision": "c9bba7b68424e1ae3018077550929fde",
-    "url": "/Hong-Portfolio/static/media/White Smoke.c9bba7b6.mp4"
-  },
-  {
     "revision": "0ad0b87514fe500a56623b29a33b2504",
     "url": "/Hong-Portfolio/static/media/Face.0ad0b875.png"
   },
@@ -20,23 +16,23 @@ self.__precacheManifest = [
     "url": "/Hong-Portfolio/static/js/runtime~main.76fb5e80.js"
   },
   {
-    "revision": "b09756188fdd4d552c1f",
-    "url": "/Hong-Portfolio/static/js/main.b0975618.chunk.js"
+    "revision": "4bc0e7ac523bc93d5a70",
+    "url": "/Hong-Portfolio/static/js/main.4bc0e7ac.chunk.js"
   },
   {
-    "revision": "3e0a7870c3ae5d6384a7",
-    "url": "/Hong-Portfolio/static/js/1.3e0a7870.chunk.js"
+    "revision": "8b7d5ba155cf99002791",
+    "url": "/Hong-Portfolio/static/js/1.8b7d5ba1.chunk.js"
   },
   {
-    "revision": "b09756188fdd4d552c1f",
-    "url": "/Hong-Portfolio/static/css/main.be2b7d29.chunk.css"
+    "revision": "4bc0e7ac523bc93d5a70",
+    "url": "/Hong-Portfolio/static/css/main.a28b9745.chunk.css"
   },
   {
-    "revision": "3e0a7870c3ae5d6384a7",
-    "url": "/Hong-Portfolio/static/css/1.05703240.chunk.css"
+    "revision": "8b7d5ba155cf99002791",
+    "url": "/Hong-Portfolio/static/css/1.f07c518d.chunk.css"
   },
   {
-    "revision": "6520e396bed77d5156f9b2e89a3724e1",
+    "revision": "f8151977d648dad86e48914c00b38f0d",
     "url": "/Hong-Portfolio/index.html"
   }
 ];
