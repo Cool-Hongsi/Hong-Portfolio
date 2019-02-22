@@ -1,5 +1,6 @@
 import React from 'react';
 import Contact from './Contact';
+import { Container, Row, Col } from 'reactstrap';
 import '../css/About.css';
 import Face from '../css/image/Face.png';
 
@@ -12,24 +13,27 @@ export default class About extends React.Component{
                     
                     </div>
                     <div className="content">
-                        <img className="face" src={Face} alt="Face" align="left"/>
-                        <span className="introduction"><br/>
-                        <span className="feature">Coding, Singing, Sports, Game</span><br/>
-                        Hi! My name is Sungjun Hong.<br/>
-                        I graduated Seneca college in December 2018 (Computer Programmer).
-                        I understand how collaboration is important based on my experience.
-                        I promise I would get used to work anywhere quickly since 
-                        I tend to keep stimulating myself to be better constantly as well as have nice personality.
-                        My goal is that becoming a professional web developer with my strong passion.
-                        Welcome to my portfolio !
-                        </span>
+                        <div className="face">
+                            <img src={Face} alt="Face"/>
+                        </div>
+                        <div className="introduction">
+                            <span className="feature">Coding, Singing, Sports, Game</span><br/><hr/>
+                            <span className="feature-text">
+                                Hi! My name is Sungjun Hong. I graduated Seneca college in December 2018 (Computer Programmer).
+                                I understand how collaboration is important based on my experience.
+                                I promise I would get used to work anywhere quickly since 
+                                I tend to keep stimulating myself to be better constantly as well as have nice personality.
+                                My goal is that becoming a professional web developer with my strong passion.
+                                Welcome to my portfolio !
+                            </span>
+                        </div>
                     </div>
                     <div className="second-bar">
                     
                     </div>
                 </div>
                 
-                <Contact />
+                {/* <Contact /> */}
             </div>
             
         )

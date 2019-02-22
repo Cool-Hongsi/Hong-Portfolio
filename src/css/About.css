@@ -1,13 +1,13 @@
 #about{
     position: relative;
-    width: 80%;
-    height: 50vh;
+    width: 60%;
+    height: 80vh;
     margin: auto;
     /* background: url('./image/pexels-photo-355770.jpeg') no-repeat 50% 50%;
     background-size: cover;
     background-attachment: fixed; */
     /* transform: skew(0deg, 5deg); */
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .first-bar{
@@ -32,18 +32,7 @@
 }
 
 .content{
-    margin-top: 80px;
-    margin-bottom: 115px;
-}
-
-.content .face{
-    width: 290px;
-    height: 290px;
-    margin-right: 80px;
-    margin-left: 100px;
-    shape-outside: url('../css/image/Face.png');
-    shape-margin: 15px;
-    shape-image-threshold: 0.5;
+    text-align: center;
 }
 
 .content .introduction{
@@ -52,7 +41,9 @@
 
 @media screen and (min-width: 2175px){
     #about{
-        margin-top: 200px;
+        width: 65%;
+        margin-top: 90px;
+        margin-bottom: 130px;
     }
 
     .second-bar{
@@ -62,23 +53,62 @@
         border-radius: 5px;
         background-color: #000;
         box-shadow: 2px 2px 1px grey;
-        margin-top: 0px;
-        margin-bottom: 180px;
     }
     
     .content{
-        margin-top: 60px;
+        margin-top: 100px;
         margin-bottom: 100px;
     }
     
-    .content .face{
-        width: 320px;
-        height: 320px;
-        margin-right: 80px;
-        margin-left: 100px;
-        shape-outside: url('../css/image/Face.png');
-        shape-margin: 70px;
-        shape-image-threshold: 0.5;
+    .face{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 70px;
+    }
+
+    .face img{
+        width: 26%;
+        height: 100%;
+    }
+    
+    .content .introduction{
+        font-size: 33px;
+    }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 2175px){
+    #about{
+        width: 75%;
+    }
+
+    #about{
+        margin-top: 100px;
+        margin-bottom: 120px;
+    }
+
+    .second-bar{
+        float: right;
+        width: 70%;
+        height: .5%;
+        border-radius: 5px;
+        background-color: #000;
+        box-shadow: 2px 2px 1px grey;
+    }
+    
+    .content{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .face{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 70px;
+    }
+
+    .face img{
+        width: 25%;
+        height: 100%;
     }
     
     .content .introduction{
@@ -86,47 +116,15 @@
     }
 }
 
-@media screen and (min-width: 1601px) and (max-width: 2175px){
-    #about{
-        margin-top: 200px;
-    }
-
-    .second-bar{
-        float: right;
-        width: 70%;
-        height: .5%;
-        border-radius: 5px;
-        background-color: #000;
-        box-shadow: 2px 2px 1px grey;
-        margin-top: 0px;
-    }
-    
-    .content{
-        margin-top: 70px;
-        margin-bottom: 95px;
-    }
-    
-    .content .face{
-        width: 320px;
-        height: 320px;
-        margin-right: 80px;
-        margin-left: 80px;
-        margin-bottom: 30px;
-        shape-outside: url('../css/image/Face.png');
-        shape-margin: 60px;
-        shape-image-threshold: 0.5;
-    }
-    
-    .content .introduction{
-        font-size: 27px;
-    }
-}
-
 @media screen and (min-width:1124px) and (max-width:1600px){
     #about{
-        margin-top: 100px;
+        width: 75%;
     }
-    
+
+    #about{
+        margin-top: 50px;
+    }
+
     .second-bar{
         float: right;
         width: 70%;
@@ -134,22 +132,22 @@
         border-radius: 5px;
         background-color: #000;
         box-shadow: 2px 2px 1px grey;
-        margin-top: 0px;
     }
     
     .content{
-        margin-top: 40px;
-        margin-bottom: 60px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     
-    .content .face{
-        width: 230px;
-        height: 230px;
-        margin-right: 60px;
-        margin-left: 65px;
-        shape-outside: url('../css/image/Face.png');
-        shape-margin: 60px;
-        shape-image-threshold: 0.5;
+    .face{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .face img{
+        width: 21%;
+        height: 100%;
     }
     
     .content .introduction{
@@ -159,9 +157,12 @@
 
 @media screen and (min-width:768px) and (max-width:1124px){
     #about{
-        margin-top: 50px;
+        width: 80%;
     }
-    
+
+    .first-bar{
+        margin-top: -80px;
+    }
     .second-bar{
         float: right;
         width: 70%;
@@ -169,23 +170,22 @@
         border-radius: 5px;
         background-color: #000;
         box-shadow: 2px 2px 1px grey;
-        margin-top: 0px;
     }
     
     .content{
-        margin-top: 30px;
+        margin-top: 50px;
         margin-bottom: 50px;
     }
     
-    .content .face{
-        width: 160px;
-        height: 160px;
-        margin-right: 40px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        shape-outside: url('../css/image/Face.png');
-        shape-margin: 30px;
-        shape-image-threshold: 0.5;
+    .face{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .face img{
+        width: 22%;
+        height: 100%;
     }
     
     .content .introduction{
@@ -195,7 +195,11 @@
 
 @media screen and (min-width:425px) and (max-width:767px){
     #about{
-        margin-top: 15px;
+        width: 80%;
+    }
+
+    .first-bar{
+        margin-top: -90px;
     }
 
     .second-bar{
@@ -205,30 +209,36 @@
         border-radius: 5px;
         background-color: #000;
         box-shadow: 2px 2px 1px grey;
-        margin-top: 0px;
     }
     
     .content{
-        margin-top: 30px;
+        margin-top: 35px;
         margin-bottom: 35px;
     }
     
-    .content .face{
-        width: 150px;
-        height: 150px;
-        margin-right: 25px;
-        margin-left: 10px;
-        margin-bottom: 15px;
+    .face{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .face img{
+        width: 32%;
+        height: 100%;
     }
     
     .content .introduction{
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
 @media screen and (min-width:375px) and (max-width:424px){
     #about{
-        margin-top: 50px;
+        width: 85%;
+    }
+
+    .first-bar{
+        margin-top: -75px;
     }
 
     .second-bar{
@@ -238,72 +248,6 @@
         border-radius: 5px;
         background-color: #000;
         box-shadow: 2px 2px 1px grey;
-        margin-top: 0px;
-    }
-    
-    .content{
-        margin-top: 25px;
-        margin-bottom: 30px;
-    }
-    
-    .content .face{
-        width: 120px;
-        height: 120px;
-        margin-right: 15px;
-        margin-left: 7px;
-        margin-bottom: 1.5px;
-    }
-    
-    .content .introduction{
-        font-size: 10px;
-    }
-}
-
-@media screen and (min-width:321px) and (max-width:374px){
-    #about{
-        margin-top: 70px;
-    }
-
-    .second-bar{
-        float: right;
-        width: 70%;
-        height: .5%;
-        border-radius: 5px;
-        background-color: #000;
-        box-shadow: 2px 2px 1px grey;
-        margin-top: 0px;
-    }
-    
-    .content{
-        margin-top: 20px;
-        margin-bottom: 25px;
-    }
-    
-    .content .face{
-        width: 110px;
-        height: 110px;
-        margin-left: 0px;
-        margin-bottom: 1.5px;
-    }
-    
-    .content .introduction{
-        font-size: 9px;
-    }
-}
-
-@media screen and (max-width: 320px){
-    #about{
-        margin-top: 65px;
-    }
-
-    .second-bar{
-        float: right;
-        width: 70%;
-        height: .5%;
-        border-radius: 5px;
-        background-color: #000;
-        box-shadow: 2px 2px 1px grey;
-        margin-top: 0px;
     }
     
     .content{
@@ -311,14 +255,96 @@
         margin-bottom: 30px;
     }
     
-    .content .face{
-        width: 110px;
-        height: 110px;
-        margin-left: 0px;
-        margin-bottom: 1.5px;
+    .face{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 25px;
+    }
+
+    .face img{
+        width: 45%;
+        height: 100%;
     }
     
     .content .introduction{
-        font-size: 8px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:374px){
+    #about{
+        width: 85%;
+    }
+
+    .first-bar{
+        margin-top: -75px;
+    }
+
+    .second-bar{
+        float: right;
+        width: 70%;
+        height: .5%;
+        border-radius: 5px;
+        background-color: #000;
+        box-shadow: 2px 2px 1px grey;
+    }
+    
+    .content{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .face{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 25px;
+    }
+
+    .face img{
+        width: 45%;
+        height: 100%;
+    }
+    
+    .content .introduction{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #about{
+        width: 85%;
+    }
+
+    .first-bar{
+        margin-top: -75px;
+    }
+
+    .second-bar{
+        float: right;
+        width: 70%;
+        height: .5%;
+        border-radius: 5px;
+        background-color: #000;
+        box-shadow: 2px 2px 1px grey;
+    }
+    
+    .content{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .face{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 25px;
+    }
+
+    .face img{
+        width: 45%;
+        height: 100%;
+    }
+    
+    .content .introduction{
+        font-size: 12px;
     }
 }

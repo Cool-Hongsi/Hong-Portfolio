@@ -11,10 +11,9 @@ export default class Home extends React.Component{
             <MainContainer>
                 
                 <div id="home">
-                    <div className="home-data ani">
-                        <div className="junior">
-                            Junior Developer
-                        </div>
+                    <div className="home-data">
+                        Junior <br/>
+                        Web Developer
                     </div>
                 </div>
 

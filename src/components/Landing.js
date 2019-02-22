@@ -2,7 +2,6 @@ import React from 'react';
 import { TweenMax, Power2 } from 'gsap';
 import Home from './Home';
 import '../css/Landing.css';
-import video from '../css/image/White Smoke.mp4';
 
 export default class Landing extends React.Component{
     constructor(props){
@@ -33,12 +32,6 @@ export default class Landing extends React.Component{
             top : "-110%",
             ease : Power2.easeInOut
         });
-
-        TweenMax.to(".videoBG", 2, {
-            delay : 3,
-            top : "-110%",
-            ease : Power2.easeInOut
-        });
         
         setTimeout(() => {
             this.setState({
@@ -52,9 +45,6 @@ export default class Landing extends React.Component{
             <div>
                 <div id="landing">
                     <div className="screen">
-                        <video className="videoBG" autoPlay muted loop>
-                            <source src={video} type="video/mp4" />
-                        </video>
                         <p className="landingBackground">
                             SUNGJUN
                         </p>

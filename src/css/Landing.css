@@ -1,13 +1,10 @@
-.videoBG{
-    background-size: 100%;
-}
-
 .screen{
     position : absolute;
     width : 100%;
     height : 100vh;
     z-index: 3;
     overflow: hidden;
+    background-color: black;
 }
 
 .screen p{
@@ -65,12 +62,7 @@
     top : 0;
 }
 
-@media screen and (min-width:1724px){
-    .videoBG{
-        width: auto;
-        height: 100%;
-    }
-    
+@media screen and (min-width:1724px){    
     .landingBackground{
         top: 45%;
         text-align: center;
@@ -167,10 +159,6 @@
 }
 
 @media screen and (min-width:375px) and (max-width:424px){
-    .videoBG{
-        display: none !important;
-    }
-
     .screen{
         background-color: #000;
     }
@@ -199,10 +187,6 @@
 }
 
 @media screen and (min-width:321px) and (max-width:374px){
-    .videoBG{
-        display: none !important;
-    }
-
     .screen{
         background-color: #000;
     }
@@ -231,10 +215,6 @@
 }
 
 @media screen and (max-width: 320px){
-    .videoBG{
-        display: none !important;
-    }
-
     .screen{
         background-color: #000;
     }
