@@ -235,6 +235,7 @@
 @media screen and (min-width:375px) and (max-width:424px){
     #about{
         width: 85%;
+        margin-bottom: 50px;
     }
 
     .first-bar{
@@ -274,6 +275,7 @@
 @media screen and (min-width:321px) and (max-width:374px){
     #about{
         width: 85%;
+        margin-bottom: 50px;
     }
 
     .first-bar{
@@ -313,6 +315,7 @@
 @media screen and (max-width: 320px){
     #about{
         width: 85%;
+        margin-bottom: 50px;
     }
 
     .first-bar{
