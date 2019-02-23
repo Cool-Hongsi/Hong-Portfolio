@@ -143,17 +143,17 @@
     }
 
     .Nav{
-        width: 15%;
-        margin-right: 55px;
+        width: 12%;
+        margin-right: 80px;
     }
 
     .Nav-content{
-        width: 85%;
+        width: 88%;
     }
     
     .NavItem{
-        width: 150px;
-        font-size: 21px;
+        width: 130px;
+        font-size: 19px;
         font-weight: 650;
     }
     
@@ -168,7 +168,7 @@
     }
     
     .cardText{
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
