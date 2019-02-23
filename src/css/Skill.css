@@ -144,7 +144,7 @@
 
     .Nav{
         width: 15%;
-        margin-right: 50px;
+        margin-right: 55px;
     }
 
     .Nav-content{
@@ -152,6 +152,7 @@
     }
     
     .NavItem{
+        width: 150px;
         font-size: 21px;
         font-weight: 650;
     }
