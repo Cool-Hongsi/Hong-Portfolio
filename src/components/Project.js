@@ -48,7 +48,7 @@ const items = [
         url : "https://github.com/Cool-Hongsi/React-Manage-Employee"
     },
     {
-        src: 'https://i1.wp.com/www.criptonoticias.com/wp-content/uploads/2015/06/CriptoNoticias-BlockCypher-API-Microtransacciones-Bitcoin.png?zoom=2.625&resize=371%2C189&ssl=1',
+        src: 'https://i1.wp.com/itsblockchain.com/wp-content/uploads/2016/11/Screen-Shot-2015-04-28-at-3.31.23-pm.png?fit=738%2C340&ssl=1',
         altText: 'BlockCypher API',
         title: "BlockCypher API",
         usedLanguage: "Model (MySQL), View (ReactJS), Controller (NodeJS), bitcoinjs-lib, bitcoin-transaction, BootStrap",
