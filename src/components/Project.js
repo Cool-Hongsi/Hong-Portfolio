@@ -48,15 +48,15 @@ const items = [
         url : "https://github.com/Cool-Hongsi/React-Manage-Employee"
     },
     {
-        src: 'https://cdn-resources.ableton.com/resources/af/4e/af4e549b-fca2-43c0-9fa0-1f1e085236d8/drum_booth.jpg',
-        altText: 'Drum Machine',
-        title: "Drum Machine",
-        usedLanguage: "ReactJS, NodeJS, BootStrap, Heroku",
-        purpose: "One of the projects in Free Code Camp",
-        description: "Make the drum sound web application. Not only clicking button, but also typing keyboard will create the drum sound. Although it is small project, I was able to learn a lot from this project such as combine ReactJS and NodeJS (setting up proxy server), send drum sound information from one of routers in NodeJS and receive the data in ReactJS by using fetch method, addEventListener with DOM ('keydown')",
-        hardPoint: "Set up button by using map method with each property, Call function in parent component from child component",
-        overcome: "Map method has a variety of advantages. Particularly, it enable to make long long source code breifly. Also, as approaching each property, I can set up each index of big array. For example, {this.state.items.map((el) => { return( <span key={el.id}> <audio id={el.keyTrigger} src={el.url}></audio>... In the case of call parent function, when I call child component, I need to set up the code like <Child changeBackColor={this.changeBackColor} /> and changeBackColor function should be delcared in parent component. After then, in child component, use {this.props.changeBackColor}.",
-        url : "https://github.com/Cool-Hongsi/Play-Drum"
+        src: 'https://i1.wp.com/www.criptonoticias.com/wp-content/uploads/2015/06/CriptoNoticias-BlockCypher-API-Microtransacciones-Bitcoin.png?zoom=2.625&resize=371%2C189&ssl=1',
+        altText: 'BlockCypher API',
+        title: "BlockCypher API",
+        usedLanguage: "Model (MySQL), View (ReactJS), Controller (NodeJS), bitcoinjs-lib, bitcoin-transaction, BootStrap",
+        purpose: "Through BlockCypher API, Created web application which can retrieve the balance from a virtual wallet as well as set up payment system",
+        description: "Process -> Generate random virtual wallet (Receive public address & private key) -> Achieve testnet bitcoin in virtual wallet via (https://tbtc.bitaps.com) -> Once the virtual wallet is charged by testnet bitcoin, the transaction record in virtual wallet will be added. (Can see the data by using BlockCypher API). -> Now, the user is able to view the record of wallet (including balance) -> Type another virtual wallet public address that the user would like to transfer bitcoin and amount -> The user is able to find out hex code and put the hex code into https://live.blockcypher.com/btc-testnet/pushtx -> Once the transaction is completed, the additional transaction record in virtual wallet will be added. -> As long as the user clicks 'Add Transaction', the record of transaction (Particularly, hash code) will be stored in MySQL -> As long as the user clicks 'Show Transaction', the record of transaction (All records) will be indicated on page",
+        hardPoint: "Be familiar with how to control BlockCypher API.",
+        overcome: "I login to the official website to see fundamental stuff and figured out how to handle the End point with GET and POST way. After receiving the data from user in frontend page, transfer data to backend page by using axios. After then, through API End point, I have access to API with req.body value.",
+        url : "https://github.com/Cool-Hongsi/BlockCypher-API"
     },
     {
         src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFcRy79_ynO8mvwb5AM7UxcLkjMlEmspMVP74HYk9vBWN3jX-L',
