@@ -6,6 +6,7 @@ import Project from './Project';
 import '../css/Home.css';
 
 export default class Home extends React.Component{
+
     render(){
         return(
             <MainContainer>
@@ -21,7 +22,7 @@ export default class Home extends React.Component{
 
                 </div>
 
-                <About />
+                <About />               
 
                 <div className="insertPic">
                     

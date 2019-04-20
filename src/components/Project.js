@@ -56,7 +56,7 @@ const items = [
         description: "Process -> Generate random virtual wallet (Receive public address & private key) -> Achieve testnet bitcoin in virtual wallet via (https://tbtc.bitaps.com) -> Once the virtual wallet is charged by testnet bitcoin, the transaction record in virtual wallet will be added. (Can see the data by using BlockCypher API). -> Now, the user is able to view the record of wallet (including balance) -> Type another virtual wallet public address that the user would like to transfer bitcoin and amount -> The user is able to find out hex code and put the hex code into https://live.blockcypher.com/btc-testnet/pushtx -> Once the transaction is completed, the additional transaction record in virtual wallet will be added. -> As long as the user clicks 'Add Transaction', the record of transaction (Particularly, hash code) will be stored in MySQL -> As long as the user clicks 'Show Transaction', the record of transaction (All records) will be indicated on page",
         hardPoint: "Be familiar with how to control BlockCypher API.",
         overcome: "I login to the official website to see fundamental stuff and figured out how to handle the End point with GET and POST way. After receiving the data from user in frontend page, transfer data to backend page by using axios. After then, through API End point, I have access to API with req.body value.",
-        url : "https://github.com/Cool-Hongsi/BlockCypher-API"
+        url : "https://github.com/Cool-Hongsi/BlockCypher-API-NEW"
     },
     {
         src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFcRy79_ynO8mvwb5AM7UxcLkjMlEmspMVP74HYk9vBWN3jX-L',

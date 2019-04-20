@@ -12,7 +12,7 @@ export default class Skill extends React.Component{
 
         this.toggle = this.toggle.bind(this);
     }
-    
+
     toggle(tab) {
         if (this.state.activeTab !== tab) {
             this.setState({
@@ -22,7 +22,6 @@ export default class Skill extends React.Component{
     }
 
     render(){
-        
         return(
             <div id="skill">
                 <div className="skill-data">

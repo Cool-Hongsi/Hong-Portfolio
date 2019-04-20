@@ -1,6 +1,4 @@
 import React from 'react';
-import Contact from './Contact';
-import { Container, Row, Col } from 'reactstrap';
 import '../css/About.css';
 import Face from '../css/image/Face.png';
 
